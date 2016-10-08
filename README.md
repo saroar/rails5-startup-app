@@ -1,6 +1,6 @@
 # Rails 5 Start up Application 
 
-Every Time you create new Rails 5 application you need to install some comment gem which we use for every rails application so i decide to create one application which i can use every time wheni start new rails project 
+Every Time i create new Rails 5 application i need to install some commen gem which i use for every rails applications so i decide to create one application which i and other rails programmer can use every time when i/other can use this app 
 
 This is Gem list which i use every Rails Application 
 
