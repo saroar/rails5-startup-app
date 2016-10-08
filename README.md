@@ -5,41 +5,57 @@ Every Time you create new Rails 5 application you need to install some comment g
 This is Gem list which i use every Rails Application 
 
 
-* # A set of Rails responders to dry up your application 
+A set of Rails responders to dry up your application 
 gem 'responders', '~> 2.3' # rails g responders:install
 
-* # Bootstrap 4 Ruby Gem for Rails / Sprockets and Compass
+Bootstrap 4 Ruby Gem for Rails / Sprockets and Compass
+```ruby
 gem 'bootstrap', '~> 4.0.0.alpha4'
 gem 'sass-rails', '~> 5.0'
+```
 
-* # Tooltips and popovers depend on tether for positioning
+Tooltips and popovers depend on tether for positioning
+```ruby
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
-
-* # Form
+```
+Form
+```ruby
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
+```
 
-* # Nested form
+Nested form
+```ruby
 gem 'cocoon'
+```
 
-* # Slim template
+Slim template
+```ruby
 gem 'slim-rails'
-
-* # Annotate Rails classes with schema and routes info
+```
+Annotate Rails classes with schema and routes info
+```ruby
 gem 'annotate' # rails g annotate:install
+```
 
-* # Devise is a flexible authentication solution for Rails based on Warden
+Devise is a flexible authentication solution for Rails based on Warden
+```ruby
 gem 'devise', '~> 4.2'
+```
 
-* # ActionView Record Tag Helpers for Rails 5
+ActionView Record Tag Helpers for Rails 5
+
+```ruby
 gem 'record_tag_helper', '~> 1.0'
+```
 
-
-* For developement and test 
+For developement and test 
+```ruby
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'byebug', platform: :mri
   gem 'pry'
 end
+```
