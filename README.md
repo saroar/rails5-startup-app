@@ -5,8 +5,10 @@ Every Time i create new Rails 5 application i need to install some commen gem wh
 This is Gem list which i use every Rails Application 
 
 
-A set of Rails responders to dry up your application 
+A set of Rails responders to dry up your application
+```ruby
 gem 'responders', '~> 2.3' # rails g responders:install
+```
 
 Bootstrap 4 Ruby Gem for Rails / Sprockets and Compass
 ```ruby
